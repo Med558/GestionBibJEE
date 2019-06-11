@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Exam-WEB-2017CJ094">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="Exam-EJB-2017CJ094.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Exam-EJB-2017CJ094/Exam-EJB-2017CJ094">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Exam-WEB-2017CJ094"/>
+        <property name="java-output-path" value="/Exam-WEB-2017CJ094/build/classes"/>
+    </wb-module>
+</project-modules>
